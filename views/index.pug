@@ -1,0 +1,18 @@
+doctype html
+html
+    include includes/head.pug
+    body.client
+        .wrapper
+            h1 ECHO Podcasts
+            ul.grid.cards
+                each el, i in preachDb
+                    li
+                        h2 #{el.title}
+                        p
+                            | #{el.desc}
+                            | #{el.file}
+
+        include includes/foot.pug
+        script.
+            let uid = Math.random().toString(36).substring(2);
+            console.log(uid);

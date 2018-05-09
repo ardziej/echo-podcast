@@ -1,15 +1,31 @@
 {
   "name": "echo-podcast",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "ECHO Worship",
+  "homepage": "http://weareecho.pl",
   "main": "app.js",
-  "dependencies": {
-    "podcast": "^1.1.0"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "author": "",
-  "license": "MIT"
+  "author": {
+    "name": "Michal Ardziejewski",
+    "email": "adjweb@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ardziej/echo-podcast.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "podcast": "^1.1.0",
+    "pug": "^2.0.3",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.1",
+    "lowdb": "^1.0.0",
+    "nodemon": "^1.17.4"
+  }
 }
