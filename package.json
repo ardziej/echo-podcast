@@ -24,7 +24,7 @@
     "uuid": "^3.2.1"
   },
   "devDependencies": {
-    "dotenv": "^5.0.1",
+    "dotenv": "^6.0.0",
     "lowdb": "^1.0.0",
     "nodemon": "^1.17.4"
   }

@@ -1,0 +1,112 @@
+{
+  "audio": [
+    {
+      "uuid": "bd512c6a-661c-4489-bdf6-c268c8fb0ba3",
+      "title": "ECHO 11.02.2018",
+      "description": "",
+      "series": "",
+      "preacher": "",
+      "date": "2018-02-11",
+      "file": "echo_18-02-11.mp3"
+    },
+    {
+      "uuid": "bd512c6a-661c-4489-bdf6-c268c8fb0ba3",
+      "title": "ECHO 18.02.2018",
+      "description": "",
+      "series": "",
+      "preacher": "",
+      "date": "2018-02-18",
+      "file": "echo_18-02-18.mp3"
+    },
+    {
+      "uuid": "bd512c6a-661c-4489-bdf6-c268c8fb0ba3",
+      "title": "ECHO 04.03.2018",
+      "description": "",
+      "series": "",
+      "preacher": "",
+      "date": "2018-03-04",
+      "file": "echo_18-03-04.mp3"
+    },
+    {
+      "uuid": "bd512c6a-661c-4489-bdf6-c268c8fb0ba3",
+      "title": "ECHO 25.03.2018",
+      "description": "",
+      "series": "",
+      "preacher": "",
+      "date": "2018-03-25",
+      "file": "echo_18-03-25.mp3"
+    },
+    {
+      "uuid": "bd512c6a-661c-4489-bdf6-c268c8fb0ba3",
+      "title": "ECHO 08.04.2018",
+      "description": "",
+      "series": "",
+      "preacher": "",
+      "date": "2018-04-08",
+      "file": "echo_18-04-08.mp3"
+    },
+    {
+      "uuid": "bd512c6a-661c-4489-bdf6-c268c8fb0ba3",
+      "title": "ECHO 15.04.2018",
+      "description": "",
+      "series": "",
+      "preacher": "",
+      "date": "2018-04-15",
+      "file": "echo_18-04-15.mp3"
+    },
+    {
+      "uuid": "bd512c6a-661c-4489-bdf6-c268c8fb0ba3",
+      "title": "ECHO 22.04.2018",
+      "description": "",
+      "series": "",
+      "preacher": "",
+      "date": "2018-04-22",
+      "file": "echo_18-04-22.mp3"
+    },
+    {
+      "uuid": "bd512c6a-661c-4489-bdf6-c268c8fb0ba3",
+      "title": "ECHO 29.04.2018",
+      "description": "",
+      "series": "",
+      "preacher": "",
+      "date": "2018-04-29",
+      "file": "echo_18-04-29.mp3"
+    },
+    {
+      "uuid": "bd512c6a-661c-4489-bdf6-c268c8fb0ba3",
+      "title": "ECHO 05.08.2018",
+      "description": "",
+      "series": "",
+      "preacher": "",
+      "date": "2018-08-05",
+      "file": "echo_18-08-05.mp3"
+    },
+    {
+      "uuid": "bd512c6a-2342-4489-bdf6-c268c8fb0ba3",
+      "title": "ECHO 12.08.2018",
+      "description": "",
+      "series": "In God We Trust",
+      "preacher": "Daniel Różański",
+      "date": "2018-08-12",
+      "file": "echo_18-08-12.mp3"
+    },
+    {
+      "uuid": "bd512c6a-661c-4489-bdf6-c268c8fb0ba3",
+      "title": "ECHO 19.08.2018",
+      "description": "",
+      "series": "In God We Trust",
+      "preacher": "Daniel Różański",
+      "date": "2018-08-19",
+      "file": "echo_18-08-19.mp3"
+    },
+    {
+      "uuid": "a5316e02-8c94-4aae-8f2e-7ecd047a3397",
+      "title": "ECHO 26.08.2018",
+      "description": "",
+      "series": "In God We Trust",
+      "preacher": "Daniel Różański",
+      "date": "2018-08-26",
+      "file": "echo_18-08-26.mp3"
+    }
+  ]
+}

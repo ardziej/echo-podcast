@@ -10,6 +10,6 @@ exports.node = function () {
 }
 exports.storage = function () {
     return {
-        "audio": process.env.STORAGE_AUDIO || "localhost",
+        "S3": process.env.S3_ENDPOINT || "localhost",
     }
 }

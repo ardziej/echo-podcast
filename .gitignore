@@ -10,4 +10,5 @@ tmp/**
 node_modules/
 .sass-cache
 npm-debug.log
+package-lock.json
 .env

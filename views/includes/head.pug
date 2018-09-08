@@ -1,54 +1,8 @@
 head
-    title ECHO #{title}
+    title #{title}
     meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' )
     meta(name='theme-color', content='#000' )
     link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin-ext', type='text/css' )
-    link(rel='stylesheet', href='/static/assets/stylesheets/theme/echo.css', type='text/css' )
-    link(rel='shortcut icon', href='/static/assets/images/favicon_black.png' )
+    link(rel='stylesheet', href='/static/assets/css/app.css', type='text/css' )
+    link(rel='shortcut icon', href='/static/assets/images/favicon-black.png' )
     link(rel='manifest', href='/static/manifest.json' )
-
-
-    style.
-        body {
-            font-family: 'Montserrat', sans-serif;
-            background-color: #fff;
-            color: #000;
-        }
-        h1 {
-            text-align: center;
-        }
-        .wrapper {
-            margin: 0 auto;
-            width: 90%;
-        }
-
-        .cards {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        .cards li {
-            border: 2px solid #ddd;
-            border-radius: 0;
-            background-color: #ccc;
-            color: #000;
-            flex: 1 1 200px;
-        }
-
-        .cards h2 {
-            background-color: #000;
-            color: #fff;
-            margin: 0;
-            padding: 10px;
-        }
-
-        .cards p {
-            padding: 10px;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-gap: 20px;
-        }

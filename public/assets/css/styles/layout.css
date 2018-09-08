@@ -1,0 +1,74 @@
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1140px;
+}
+
+.header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header__cross {
+    width: 50px;
+}
+
+.header__title {
+    padding-top: 20px;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.sermons {
+    display: grid;
+    grid-template-columns: 12fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+.sermon {
+    background-color: #191919;
+    color: #fff;
+}
+
+.sermon__title {
+    text-transform: uppercase;
+    background-color: #3d414a;
+    color: #fff;
+    padding: 10px;
+}
+
+.sermon__content {
+    padding: 10px;
+}
+
+.sermons-archive {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+.sermon-archive__header {
+    padding: 20px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sermon-archive {
+    background-color: #191919;
+    color: #fff;
+}
+
+.sermon-archive__title {
+    background-color: #3d414a;
+    color: #fff;
+    padding: 10px;
+}
+
+.sermon-archive__content {
+    padding: 10px;
+}

@@ -3,14 +3,28 @@ html
     include includes/head.pug
     body.client
         .wrapper
-            h1 ECHO Podcasts
-            ul.grid.cards
-                each el, i in preachDb
-                    li
-                        h2 #{el.title}
-                        p
-                            | #{el.desc}
-                            | #{el.file}
+            header.header
+                img.header__cross(src='/static/assets/images/favicon-black.png')
+                h1.header__title #{title}
+            main
+                ul.sermons
+                    each el, i in sermonsDb
+                        li.sermon
+                            h2.sermon__title #{el.title} - #{el.series} #{el.part}
+                            p.sermon__content
+                                audio(controls)
+                                    source(src=S3 + el.file)
+
+            section.sermons-archive-section
+                h2.sermon-archive__header
+                    ='Archiwum'
+                ul.sermons-archive
+                    each el, i in sermonsArchiveDb
+                        li.sermon-archive
+                            h2.sermon-archive__title #{el.title}
+                            p.sermon-archive__content
+                                audio(controls)
+                                    source(src=S3 + el.file)
 
         include includes/foot.pug
         script.
