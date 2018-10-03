@@ -12,8 +12,6 @@ const db = low(adapter)
 const adapterArchive = new FileSync('sermonsArchive.json')
 const dbArchive = low(adapterArchive)
 
-const uuidv4 = require('uuid/v4')
-
 if (app.get('env') === 'development') {
     app.locals.pretty = true
 }
