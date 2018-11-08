@@ -87,6 +87,28 @@
       "cover": "",
       "date": "2018-10-21",
       "file": "echo_18-10-21.mp3"
+    },
+    {
+      "uuid": "bd512c6a-661c-4489-bdf6-c268c8fb0ba4",
+      "title": "ECHO 28.10.2018",
+      "series": "",
+      "part": "",
+      "preacher": "Daniel Różański",
+      "description": "",
+      "cover": "",
+      "date": "2018-10-28",
+      "file": "echo_18-10-28.mp3"
+    },
+    {
+      "uuid": "bd512c6a-661c-4489-bdf6-c268c8fb0ba5",
+      "title": "ECHO 04.11.2018",
+      "series": "Obietnica",
+      "part": "Vol. 1",
+      "preacher": "Daniel Różański",
+      "description": "",
+      "cover": "",
+      "date": "2018-11-04",
+      "file": "echo_18-11-04.mp3"
     }
   ]
 }
