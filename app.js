@@ -5,6 +5,7 @@ const app = express()
 const server = require('http').Server(app)
 const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
+const Sequelize = require('sequelize')
 
 const adapter = new FileSync('sermons.json')
 const db = low(adapter)
@@ -15,6 +16,28 @@ const dbArchive = low(adapterArchive)
 if (app.get('env') === 'development') {
     app.locals.pretty = true
 }
+
+const sequelize = new Sequelize(config.db().database, config.db().user, config.db().password, {
+    host: config.db().host,
+    port: config.db().port,
+    dialect: 'mysql',
+    operatorsAliases: false,
+    pool: {
+        max: 5,
+        min: 0,
+        acquire: 30000,
+        idle: 10000
+    },
+})
+
+sequelize
+    .authenticate()
+    .then(() => {
+        console.log('Connection has been established successfully.')
+    })
+    .catch(err => {
+        console.error('Unable to connect to the database:', err)
+    })
 
 const sermonsDb = db.get('audio').sortBy('date').reverse().value()
 const sermonsArchiveDb = dbArchive.get('audio').sortBy('date').reverse().value()
