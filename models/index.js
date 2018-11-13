@@ -12,6 +12,11 @@ const sequelize = new Sequelize(config.db().database, config.db().user, config.d
     host: config.db().host,
     port: config.db().port,
     dialect: 'mysql',
+    define: {
+        charset: 'utf8',
+        collate: 'utf8_general_ci',
+        timestamps: true
+    },
     operatorsAliases: false,
     pool: {
         max: 5,
