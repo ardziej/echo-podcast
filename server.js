@@ -7,7 +7,7 @@ const multerS3 = require('multer-s3')
 const app = express()
 
 if (process.env.NODE_ENV !== 'production') {
-    require('dotenv').load();
+    require('dotenv').load()
 }
 
 console.log('AWS KEY ID')
@@ -33,9 +33,12 @@ const upload = multer({
         s3: s3,
         bucket: 'echo',
         acl: 'public-read',
+        contentType: multerS3.AUTO_CONTENT_TYPE,
         key: function (request, file, cb) {
             console.log(file)
-            cb(null, file.originalname)
+            let newFileName = Date.now() + "-" + file.originalname
+            let fullPath = 'preach/' + newFileName
+            cb(null, fullPath)
         }
     })
 }).array('upload', 1)
