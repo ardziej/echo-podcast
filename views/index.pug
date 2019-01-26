@@ -7,6 +7,16 @@ html
                 img.header__cross(src='/static/assets/images/favicon-black.png')
                 h1.header__title #{title}
             main
+                iframe(
+                src="https://open.spotify.com/embed/show/3pI3bUliAkiokzSnN9fFHF"
+                width="100%"
+                height="380"
+                frameborder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+                )
+                h2.sermon-archive__header
+                    ='Pozostałe podcasty'
                 ul.sermons
                     each el, i in sermonsDb
                         li.sermon
